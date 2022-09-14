@@ -1,0 +1,91 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package modulpengulangan;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author audre
+ */
+public class tugasloveyou {
+    public static void main(String[] args) {
+        Scanner input = new Scanner (System.in);
+        String jalurmasuk, golongan, golongan1, golongan2;
+        
+        System.out.println("Masukan jalur pilihan anda: ");
+        System.out.println("1. SBMPTN");
+        System.out.println("2. SNMPTN");
+        System.out.println("3. Mandiri");
+        jalurmasuk= input.nextLine();
+        
+        switch (jalurmasuk) {
+            case "1" :
+                System.out.println("pilihan golongan ");
+                System.out.println("1. A");
+                System.out.println("2. B");
+                System.out.println("3. C");
+                System.out.println("golongan yang anda pilih: ");
+                golongan= input.nextLine();
+                switch (golongan) {
+                    case "1":
+                        System.out.println("DSP Sebesar 5.000.000");
+                        System.out.println("SPP sebesar 500.000");
+                        break;
+                    case "2":
+                        System.out.println("DSP Sebesar 15.000.000");
+                        System.out.println("SPP Sebesar 1.000.000");
+                        break;
+                    case "3":
+                        System.out.println("DSP Sebesar 30.000.000");
+                        System.out.println("SPP Sebesar 2.000.000");
+                        break;
+                }
+                break;
+            case "2":
+                System.out.println("pilihan golongan ");
+                System.out.println("1. A");
+                System.out.println("2. B");
+                System.out.println("3. C");
+                System.out.println("golongan yang anda pilih: ");
+                golongan1= input.nextLine();
+                switch (golongan1) {
+                    case "1":
+                        System.out.println("DSP Sebesar 7.000.000");
+                        System.out.println("SPP sebesar 500.000");
+                        break;
+                    case "2":
+                        System.out.println("DSP Sebesar 17.000.000");
+                        System.out.println("SPP Sebesar 1.000.000");
+                        break;
+                    case "3":
+                        System.out.println("DSP Sebesar 35.000.000");
+                        System.out.println("SPP Sebesar 2.000.000");
+                    break;
+                }
+                break;
+            case "3":
+                System.out.println("pilihan golongan ");
+                System.out.println("1. A");
+                System.out.println("2. B");
+                System.out.println("3. C");
+                System.out.println("golongan yang anda pilih: ");
+                golongan2= input.nextLine();
+                switch (golongan2) {
+                    case "1":
+                        System.out.println("DSP Sebesar 10.000.000");
+                        System.out.println("SPP sebesar 1.000.000");
+                        break;
+                    case "2":
+                        System.out.println("DSP Sebesar 25.000.000");
+                        System.out.println("SPP Sebesar 2.000.000");
+                        break;
+                    case "3":
+                        System.out.println("DSP Sebesar 50.000.000");
+                        System.out.println("SPP Sebesar 3.000.000");
+                    break;
+                
+}
